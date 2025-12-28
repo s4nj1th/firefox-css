@@ -1,6 +1,12 @@
+#tabbrowser-tabs {
+  &[orient="horizontal"] {
+    --tab-max-width: 180px !important;
+  }
+}
+
 .tabbrowser-tab {
     &:not([pinned]) {
-        max-width: 180px;
+        max-width: 120px;
     }
 }
 
