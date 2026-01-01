@@ -2,6 +2,9 @@
     width: 10px !important;
 }
 
+.urlbar:not([breakout-extend]) .urlbar-input-box {
+    text-align: center;
+}
 
 #TabsToolbar {
   order: 3 !important;
