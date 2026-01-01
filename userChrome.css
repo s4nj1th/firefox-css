@@ -1,3 +1,26 @@
 .titlebar-spacer {
     width: 10px !important;
 }
+
+
+#TabsToolbar {
+  order: 3 !important;
+}
+
+#nav-bar {
+  order: 2 !important;
+}
+
+#PersonalToolbar {
+  order: 4 !important;
+}
+
+#toolbar-menubar {
+  order: 1 !important;
+}
+
+#navigator-toolbox {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
